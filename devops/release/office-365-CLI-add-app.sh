@@ -11,3 +11,4 @@ o365 version
 o365 login $SITE_URL --authType password --userName $EMAIL --password $PASS
 
 o365 spo app add --filePath "./_ab14jain.GitHubSPFxCICD/SPFx sppkg/cicd-git-hub.sppkg" --overwrite --verbose
+o365 spo app deploy --name cicd-git-hub.sppkg

@@ -22,7 +22,7 @@ export default class GitHubCicdWebPart extends BaseClientSideWebPart <IGitHubCic
       <div class="${ styles.row }">
         <div class="${ styles.column }">
           <span class="${ styles.title }">Welcome to SharePoint!</span>
-  <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts from GitHub repo.</p>
+  <p class="${ styles.subTitle }">Customize SharePoint experiences using Web Parts from GitHub repo also deploy automatically.</p>
     <p class="${ styles.description }">${escape(this.properties.description)}</p>
       <a href="https://aka.ms/spfx" class="${ styles.button }">
         <span class="${ styles.label }">Learn more</span>
